@@ -1,6 +1,6 @@
 # d3-interactive-map-greece
 
-![Interactive map](interactive-map-screenshot.png)
+![Interactive map](interactive-map-screenshot.jpg)
 
 
 An interactive Hong Kong Map using D3.js.

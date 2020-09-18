@@ -1,0 +1,68 @@
+html, body {
+  overflow:hidden ;
+  height: 100%;
+}
+
+#map {  
+  height: 100%;
+}
+#map__container {
+  position: relative;
+  height: 100%;
+}
+
+#btn-zoom {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  z-index: 10;
+}
+
+#story-buttons{
+  display: inline-grid;
+  margin-left:0%;
+  margin-top:-40%;
+  color:black;
+  z-index: 10;
+      }
+#progress_confirmed:hover, #confirmed:hover, #deaths:hover{
+  background: rgba(128,128,128, 0.8);   
+     }         
+      
+#progress_confirmed, #confirmed, #deaths{
+        border-radius: 40px;
+        }
+    
+#map__text {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  z-index: 10;
+}
+
+#tooltip h3 {
+  margin:4px;
+  font-size:14px;
+}
+#tooltip h4 {
+  margin:4px;
+  font-size:10px;
+}
+
+#tooltip {	
+  position: absolute;	
+  display: block; 
+  text-align: center;			
+  width: max-content;
+  max-width: 250px;					
+  height: max-content;					
+  padding: 4px;				
+  font: 12px sans-serif;		
+  border: 2px;		
+  border-radius: 15px;			
+  pointer-events: none;	
+  background: rgba(0,0,0,0.8);
+  color:white;
+  opacity: 0.1;
+}
+

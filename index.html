@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>  
+  <script src="https://cdn.jsdelivr.net/gh/sebt3/d3-bootstrap@0.5.2/dist/d3-bootstrap-withextra.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <title>Map of Greece</title>
+  <!-- Global Site Tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62809346-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments) };
+    gtag('js', new Date());
+    gtag('config', 'UA-62809346-2');
+  </script>
+</head>
+<body>
+  <h3 id="map__text">Επιλέξτε νομό ...</h3>
+  
+  <div id="btn-zoom">
+    <i id="btn-zoom--in" class="fa fa-search-plus fa-2x" aria-hidden="true"></i>
+    <i id="btn-zoom--out"class="fa fa-search-minus fa-2x" aria-hidden="true"></i>
+  </div>
+
+  <div id="map">
+  <div id="map__container"></div>
+  
+  <div id="story-buttons" class="btn-group" role="group" aria-label="questions to be answered">
+    <button id="progress_confirmed" type="button" class="btn" onClick="dispatchButton('progress_confirmed'); ">Τελευταίες 10 μέρες</button>
+    <script>document.addEventListener("DOMContentLoaded", function(event) { document.getElementById("progress_confirmed").click();});</script>
+    <button id="confirmed" type="button" class="btn" onClick="dispatchButton('confirmed');">Επιβεβαιωμένα</button>
+    <button id="deaths" type="button" class="btn" onClick="dispatchButton('deaths');">Θανάτοι</button>
+  </div>
+
+
+
+
+  
+  <script src="greece.json"></script>
+  <script src="map.js"></script>
+   </div>
+</body>
+</html>

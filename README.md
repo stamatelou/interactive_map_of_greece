@@ -3,7 +3,7 @@
 ![Interactive map](interactive-map-screenshot.jpg)
 
 
-An interactive Hong Kong Map using D3.js.
+An interactive Map of Greece using D3.js.
 
 https://stamatelou.github.io/interactive_map_of_greece/
 

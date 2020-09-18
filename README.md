@@ -1,4 +1,4 @@
-# d3-interactive-map-greece
+# Interactive map of Greece for coronavirus cases (D3.js)
 
 ![Interactive map](interactive-map-screenshot.jpg)
 

@@ -1,6 +1,6 @@
-# d3-hk-map
+# d3-interactive-map-greece
 
-![screen shot 2017-10-07 at 14 23 28](https://user-images.githubusercontent.com/20895743/31305387-4a7fccfa-ab6b-11e7-99b8-848827af72a5.jpg)
+![Interactive map](interactive-map-screenshot.png)
 
 
 An interactive Hong Kong Map using D3.js.
